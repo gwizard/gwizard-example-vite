@@ -7,6 +7,9 @@ freshly-created vite project.
  * `/api` is served by jaxrs rest resources in your app
  * `/*` (everything else) is served the static content
 
+This is great for small compact deployable servers. For major web application development,
+consider building your frontend and backend in separate repos and deploying them independently.
+
 ## Running in Development
 
 ```
